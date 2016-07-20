@@ -109,7 +109,7 @@ class Book extends Model
                 'process' => function($image, $imageAttach) {
                     return $image
                         ->widen(500)
-                        ->text('ysbm.com', (int)($image->width() / 2), (int)($image->height() / 2), function($font) {
+                        ->text('Sample text', (int)($image->width() / 2), (int)($image->height() / 2), function($font) {
                             $font->align('center');
                             $font->valign('center');
                             $font->color('#ff0000');
