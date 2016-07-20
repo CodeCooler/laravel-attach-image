@@ -110,12 +110,9 @@ class Book extends Model
                     return $image
                         ->widen(500)
                         ->text('ysbm.com', (int)($image->width() / 2), (int)($image->height() / 2), function($font) {
-                            //$font->file(base_path().'/resources/fonts/Montserrat-Regular.ttf');
                             $font->align('center');
                             $font->valign('center');
                             $font->color('#ff0000');
-                            //$font->size(50);
-                            //$font->angle(45);
                         });
                 },
             ],
