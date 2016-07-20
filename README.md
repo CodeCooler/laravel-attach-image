@@ -32,7 +32,8 @@ to the require section of your `composer.json` file.
 After updating composer, configure [image processor](http://image.intervention.io/getting_started/installation#laravel) of it not used before
 
 Configure app/filesystems.php add item "attach" to "disks" section
-local sample:
+
+Local sample:
  ```
  'attach' => [
     'driver' => 'local',
