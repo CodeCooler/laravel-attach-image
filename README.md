@@ -1,4 +1,4 @@
-Laravel queue walker
+Laravel attach image
 ===========================
 Provides functionality for attach files to model and manipulate if file is image
 
