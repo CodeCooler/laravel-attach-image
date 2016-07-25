@@ -38,7 +38,7 @@ Local sample:
  'attach' => [
     'driver' => 'local',
     'root'   => base_path('public'),
-    'baseUrl' => asset(''),
+    'baseUrl' => php_sapi_name() != 'cli' ?  asset('') : config('app.url'),
  ]
  ```
  Amazon S3 sample:

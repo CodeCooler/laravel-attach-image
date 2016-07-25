@@ -12,7 +12,6 @@ class FileAttach
     protected $attributeName;
     public $dirLevel = 1;
     public $baseDir;
-    public $basePath;
     public $baseUrl;
     public $filesystemDisk;
 
