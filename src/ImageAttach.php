@@ -46,7 +46,7 @@ class ImageAttach extends FileAttach
     }
 
     protected function genUrl($type=null) {
-        return $this->baseUrl.$this->genRelativePath($type);
+        return $this->getBaseUrl().$this->genRelativePath($type);
     }
 
     public function hasData($type=null) {
