@@ -137,6 +137,12 @@ class FileAttach
         }
     }
 
+    public function getExtension() {
+        if ($this->attached()) {
+            return pathinfo($this->getAttribute(), PATHINFO_EXTENSION);
+        }
+    }
+
     public function attachFile(\SplFileInfo $file) {
         $content = $file->openFile('r')->fread($file->getSize());
         $extension = $file instanceof UploadedFile ? $file->getClientOriginalExtension() : $file->getExtension();
