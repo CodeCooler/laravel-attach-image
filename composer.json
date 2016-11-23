@@ -1,6 +1,6 @@
 {
     "name": "salopot/laravel-attach-image",
-    "description": "Laravel queue walker, process all jobs on a queue.",
+    "description": "Provides functionality for attach files to model and manipulate if file is image",
     "keywords": ["laravel", "attach", "image", "S3", "ftp", "Rackspace"],
     "license": "MIT",
     "authors": [
